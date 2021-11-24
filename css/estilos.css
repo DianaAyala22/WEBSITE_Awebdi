@@ -1,0 +1,110 @@
+div.row {
+  margin-right: 0px;
+}
+
+div.container-fluid {
+  padding-right: 0px;
+}
+
+#navbarNav {
+  font-family: 'Nunito', sans-serif;
+}
+
+#menu {
+  background-color: white;
+}
+
+#awebdilogobanner {
+  position: absolute;
+  top: 12px;
+  left: 0px;
+  visibility: visible;
+  z-index: 1;
+}
+
+#nosotros {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  border-color: white;
+}
+
+#nosotros p {
+  font-size: 20px;
+}
+
+#nosotros h1 {
+  font-weight: 600;
+}
+
+
+#portafolio {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  border-color: white;
+}
+
+#portafoli {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  border-color: white;
+}
+
+#portafolio h1 {
+  font-weight: 600;
+}
+
+#contacto {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  border-color: white;
+}
+
+#textcontacto {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+#textawebdi {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+}
+
+/* This only changes this particular animation duration */
+.animate__animated.animate__flipInY {
+  --animate-duration: 5s;
+  --animate-delay: 0.4s;
+}
+
+.animate__animated.animate__flipInY {
+  --animate-duration: 5s;
+  --animate-delay: 0.6s;
+}
+
+@media (max-width: 576px) {
+  #portafoli {
+    margin-left: 50px;
+  }
+
+  div.row {
+    margin-right: 0px;
+  }
+
+  div.container-fluid {
+    padding-right: 0px;
+  }
+
+  #comentariosfb {
+    width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  div.row {
+    margin-right: 0px;
+  }
+
+  div.container-fluid {
+    padding-right: 0px;
+  }
+}
